@@ -1,0 +1,40 @@
+.userPhoto {
+   width: 50%;
+}
+.userBlock {
+   display: inline-block;
+   text-align: center;
+   width: 200px;
+   height: 200px;
+   margin: 25px 50px;
+   background-color: #191919;
+   border-radius: 25px;
+   text-align: center;
+   padding: 20px 0;
+}
+.userInfo {
+   margin-top: -5px;
+   margin-bottom: 10px;
+   padding: 0;
+   font: italic small-caps bold 16px/2 cursive;
+   color: #61dbfb;
+}
+.userFollowUnfollow {
+   border: 1px solid #61dbfb;
+   border-radius: 5px;
+   padding: 5px;
+   background-color: #61dbfb;
+   opacity: 0.9;
+   color: white;
+}
+.userFollowUnfollow:hover {
+   cursor: pointer;
+   color: #61dbfb;
+   transition: 0.5s;
+   background-color: transparent;
+}
+.userFollowUnfollow:focus {
+   cursor: pointer;
+   color: #61dbfb;
+   transition: 0.5s;
+}

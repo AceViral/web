@@ -1,0 +1,21 @@
+.notFoundWrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 73vh;
+   flex-direction: column;
+   box-icon {
+      width: 200px;
+      height: 200px;
+   }
+   h3 {
+      font: italic small-caps bold 16px/2 cursive;
+      color: #61dbfb;
+      display: flex;
+      box-icon {
+         margin: 0 10px;
+         width: 30px;
+         height: 30px;
+      }
+   }
+}

@@ -1,0 +1,71 @@
+.header {
+   grid-area: header;
+   line-height: 90px;
+   height: 90px;
+}
+.logo .text {
+   height: 90px;
+}
+.text {
+   font: italic small-caps bold 16px/2 cursive;
+   color: #61dbfb;
+   vertical-align: middle;
+   display: inline-block;
+   line-height: 1.5;
+}
+.userBlock {
+   font: italic small-caps bold 16px/2 cursive;
+   color: #61dbfb;
+   vertical-align: middle;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.userBlock img {
+   border-radius: 50%;
+}
+.userName {
+   font: italic small-caps bold 16px/2 cursive;
+   display: flex;
+   position: relative;
+   top: 3rem;
+   left: 5rem;
+}
+.userButton a {
+   border: 1px solid #61dbfb;
+   border-radius: 5px;
+   padding: 5px;
+   background-color: #61dbfb;
+   transition: all 0.3s ease-in-out;
+   opacity: 0.9;
+}
+.userButton a:hover {
+   cursor: pointer;
+   color: #61dbfb;
+   background-color: transparent;
+}
+.userButton a:focus {
+   cursor: pointer;
+   color: #61dbfb;
+}
+
+.header img {
+   margin-top: 10px;
+   width: 110px;
+}
+.loginBlock {
+   padding: 0;
+   float: right;
+   line-height: 10px;
+   margin-right: 2rem;
+   text-align: center;
+}
+.loginBlock a {
+   color: white;
+   text-decoration: none;
+}
+.loginBlock img {
+   margin: 1rem;
+   margin-top: 20px;
+   width: 60px;
+}
